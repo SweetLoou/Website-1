@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free Case Assessment - Player Rights Legal</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <meta name="description" content="Get your free gaming dispute case assessment. Interactive evaluation tool for frozen funds, account disputes, and platform issues. Instant case strength analysis." />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fplayerrig2412back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.6"></script>
+</head>
+<body class="bg-background">
+    <!-- Navigation Header -->
+    <nav class="bg-white shadow-card sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <svg class="h-10 w-10 text-primary mr-3" viewBox="0 0 40 40" fill="currentColor">
+                        <path d="M20 2L24 14H36L26 22L30 34L20 26L10 34L14 22L4 14H16L20 2Z"/>
+                        <circle cx="20" cy="20" r="3" fill="white"/>
+                    </svg>
+                    <span class="text-xl font-bold text-primary">Player Rights Legal</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage_gaming_law_advocacy_hub.html" class="text-text-secondary hover:text-primary transition-colors">Home</a>
+                    <a href="legal_services_hub_gaming_dispute_solutions.html" class="text-text-secondary hover:text-primary transition-colors">Services</a>
+                    <a href="success_stories_victory_showcase.html" class="text-text-secondary hover:text-primary transition-colors">Success Stories</a>
+                    <a href="knowledge_center_player_rights_education.html" class="text-text-secondary hover:text-primary transition-colors">Knowledge Center</a>
+                    <a href="case_assessment_free_legal_evaluation.html" class="text-primary font-semibold border-b-2 border-secondary">Case Assessment</a>
+                    <a href="client_portal_secure_case_management.html" class="text-text-secondary hover:text-primary transition-colors">Client Portal</a>
+                </div>
+                
+                <!-- Emergency CTA -->
+                <div class="flex items-center space-x-4">
+                    <button class="bg-error text-white px-4 py-2 rounded-lg font-semibold hover:bg-error-600 transition-colors">Emergency</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-primary via-primary-800 to-primary-900 text-white py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="inline-flex items-center bg-success-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+                Free • Confidential • No Obligation
+            </div>
+            
+            <h1 class="text-4xl lg:text-5xl font-bold mb-6">
+                Get Your Free Case Assessment
+            </h1>
+            
+            <p class="text-xl text-primary-100 mb-8 max-w-3xl mx-auto">
+                Our interactive assessment tool analyzes your gaming dispute and provides instant feedback on case strength, recovery potential, and next steps. Takes just 5 minutes.
+            </p>
+            
+            <!-- Trust Indicators -->
+            <div class="flex flex-wrap justify-center items-center gap-8 text-sm text-primary-200">
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                    98% Case Accuracy
+                </div>
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    Licensed Attorneys
+                </div>
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                    </svg>
+                    $12.8M+ Recovered
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Assessment Tool -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Progress Bar -->
+            <div class="mb-8">
+                <div class="flex items-center justify-between text-sm text-text-secondary mb-2">
+                    <span>Step 1 of 5</span>
+                    <span id="progress-text">Platform Selection</span>
+                </div>
+                <div class="w-full bg-surface rounded-full h-2">
+                    <div id="progress-bar" class="bg-accent h-2 rounded-full transition-all duration-300" style="width: 20%"></div>
+                </div>
+            </div>
+
+            <!-- Assessment Form -->
+            <div class="card">
+                <form id="assessment-form" class="space-y-8">
+                    <!-- Step 1: Platform Selection -->
+                    <div id="step-1" class="assessment-step">
+                        <h2 class="text-2xl font-bold text-primary mb-6">Which gaming platform is involved?</h2>
+                        
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <!-- Major Platforms -->
+                            <div class="space-y-3">
+                                <h3 class="font-semibold text-text-primary mb-3">Popular Platforms</h3>
+                                
+                                <label class="flex items-center p-4 border border-surface rounded-lg cursor-pointer hover:border-accent transition-colors">
+                                    <input type="radio" name="platform" value="stake" class="mr-4" />
+                                    <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?q=80&w=2939&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Stake.com" class="w-8 h-8 rounded mr-3 object-cover" onerror="this.src='https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                                    <span class="font-medium">Stake.com</span>
+                                </label>
+                                
+                                <label class="flex items-center p-4 border border-surface rounded-lg cursor-pointer hover:border-accent transition-colors">
+                                    <input type="radio" name="platform" value="roobet" class="mr-4" />
+                                    <img src="https://images.unsplash.com/photo-1596838132731-3301c3fd4317?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Roobet" class="w-8 h-8 rounded mr-3 object-cover" onerror="this.src='https://images.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_1280.jpg'; this.onerror=null;" />
+                                    <span class="font-medium">Roobet</span>
+                                </label>
+                                
+                                <label class="flex items-center p-4 border border-surface rounded-lg cursor-pointer hover:border-accent transition-colors">
+                                    <input type="radio" name="platform" value="bovada" class="mr-4" />
+                                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Bovada" class="w-8 h-8 rounded mr-3 object-cover" onerror="this.src='https://images.pexels.com/photos/1111597/pexels-photo-1111597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                                    <span class="font-medium">Bovada</span>
+                                </label>
+                            </div>
+                            
+                            <div class="space-y-3">
+                                <h3 class="font-semibold text-text-primary mb-3">Other Platforms</h3>
+                                
+                                <label class="flex items-center p-4 border border-surface rounded-lg cursor-pointer hover:border-accent transition-colors">
+                                    <input type="radio" name="platform" value="betonline" class="mr-4" />
+                                    <img src="https://images.unsplash.com/photo-1606902965551-dce093cda6e7?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="BetOnline" class="w-8 h-8 rounded mr-3 object-cover" onerror="this.src='https://images.pixabay.com/photo/2018/03/10/12/00/teamwork-3213924_1280.jpg'; this.onerror=null;" />
+                                    <span class="font-medium">BetOnline</span>
+                                </label>
+                                
+                                <label class="flex items-center p-4 border border-surface rounded-lg cursor-pointer hover:border-accent transition-colors">
+                                    <input type="radio" name="platform" value="ignition" class="mr-4" />
+                                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Ignition Casino" class="w-8 h-8 rounded mr-3 object-cover" onerror="this.src='https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                                    <span class="font-medium">Ignition Casino</span>
+                                </label>
+                                
+                                <label class="flex items-center p-4 border border-surface rounded-lg cursor-pointer hover:border-accent transition-colors">
+                                    <input type="radio" name="platform" value="other" class="mr-4" />
+                                    <div class="w-8 h-8 bg-surface rounded mr-3 flex items-center justify-center">
+                                        <svg class="w-4 h-4 text-text-secondary" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"/>
+                                        </svg>
+                                    </div>
+                                    <span class="font-medium">Other Platform</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <!-- Other Platform Input -->
+                        <div id="other-platform-input" class="hidden mt-4">
+                            <label class="block text-sm font-semibold text-text-primary mb-2">Platform Name</label>
+                            <input type="text" name="other_platform" placeholder="Enter platform name..." class="input-field" />
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Dispute Type -->
+                    <div id="step-2" class="assessment-step hidden">
+                        <h2 class="text-2xl font-bold text-primary mb-6">What type of issue are you experiencing?</h2>
+                        
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <label class="flex items-start p-4 border border-surface rounded-lg cursor-pointer hover:border-accent transition-colors">
+                                <input type="radio" name="dispute_type" value="frozen_funds" class="mt-1 mr-4" />
+                                <div>
+                                    <div class="font-medium text-text-primary">Frozen/Locked Funds</div>
+                                    <div class="text-sm text-text-secondary mt-1">Your winnings or deposits are being held by the platform</div>
+                                </div>
+                            </label>
+                            
+                            <label class="flex items-start p-4 border border-surface rounded-lg cursor-pointer hover:border-accent transition-colors">
+                                <input type="radio" name="dispute_type" value="account_closure" class="mt-1 mr-4" />
+                                <div>
+                                    <div class="font-medium text-text-primary">Account Closure</div>
+                                    <div class="text-sm text-text-secondary mt-1">Your account was closed or suspended unexpectedly</div>
+                                </div>
+                            </label>
+                            
+                            <label class="flex items-start p-4 border border-surface rounded-lg cursor-pointer hover:border-accent transition-colors">
+                                <input type="radio" name="dispute_type" value="kyc_issues" class="mt-1 mr-4" />
+                                <div>
+                                    <div class="font-medium text-text-primary">KYC/Verification Issues</div>
+                                    <div class="text-sm text-text-secondary mt-1">Problems with identity verification or document approval</div>
+                                </div>
+                            </label>
+                            
+                            <label class="flex items-start p-4 border border-surface rounded-lg cursor-pointer hover:border-accent transition-colors">
+                                <input type="radio" name="dispute_type" value="withdrawal_delays" class="mt-1 mr-4" />
+                                <div>
+                                    <div class="font-medium text-text-primary">Withdrawal Delays</div>
+                                    <div class="text-sm text-text-secondary mt-1">Excessive delays in processing your withdrawal requests</div>
+                                </div>
+                            </label>
+                            
+                            <label class="flex items-start p-4 border border-surface rounded-lg cursor-pointer hover:border-accent transition-colors">
+                                <input type="radio" name="dispute_type" value="bonus_disputes" class="mt-1 mr-4" />
+                                <div>
+                                    <div class="font-medium text-text-primary">Bonus Disputes</div>
+                                    <div class="text-sm text-text-secondary mt-1">Issues with bonus terms, wagering requirements, or promotions</div>
+                                </div>
+                            </label>
+                            
+                            <label class="flex items-start p-4 border border-surface rounded-lg cursor-pointer hover:border-accent transition-colors">
+                                <input type="radio" name="dispute_type" value="unfair_results" class="mt-1 mr-4" />
+                                <div>
+                                    <div class="font-medium text-text-primary">Unfair Game Results</div>
+                                    <div class="text-sm text-text-secondary mt-1">Suspicious game outcomes or technical glitches affecting results</div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Financial Details -->
+                    <div id="step-3" class="assessment-step hidden">
+                        <h2 class="text-2xl font-bold text-primary mb-6">What's the financial impact?</h2>
+                        
+                        <div class="space-y-6">
+                            <div>
+                                <label class="block text-sm font-semibold text-text-primary mb-2">Amount at Stake</label>
+                                <div class="relative">
+                                    <span class="absolute left-3 top-3 text-text-secondary">$</span>
+                                    <input type="number" name="amount_at_stake" placeholder="0.00" class="input-field pl-8" min="0" step="0.01" />
+                                </div>
+                                <p class="text-sm text-text-secondary mt-1">Include all funds affected (deposits, winnings, bonuses)</p>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-text-primary mb-2">Account Status</label>
+                                <select name="account_status" class="input-field">
+                                    <option value>Select current status...</option>
+                                    <option value="active_restricted">Active but restricted</option>
+                                    <option value="suspended">Temporarily suspended</option>
+                                    <option value="closed">Permanently closed</option>
+                                    <option value="under_review">Under review/investigation</option>
+                                    <option value="kyc_pending">KYC verification pending</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-text-primary mb-2">How long have you been affected?</label>
+                                <select name="duration" class="input-field">
+                                    <option value>Select timeframe...</option>
+                                    <option value="less_than_week">Less than a week</option>
+                                    <option value="1_2_weeks">1-2 weeks</option>
+                                    <option value="3_4_weeks">3-4 weeks</option>
+                                    <option value="1_3_months">1-3 months</option>
+                                    <option value="more_than_3_months">More than 3 months</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 4: Communication History -->
+                    <div id="step-4" class="assessment-step hidden">
+                        <h2 class="text-2xl font-bold text-primary mb-6">Have you contacted the platform?</h2>
+                        
+                        <div class="space-y-6">
+                            <div>
+                                <label class="block text-sm font-semibold text-text-primary mb-3">Communication attempts</label>
+                                <div class="space-y-3">
+                                    <label class="flex items-center">
+                                        <input type="checkbox" name="communication[]" value="live_chat" class="mr-3" />
+                                        <span>Live chat support</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="checkbox" name="communication[]" value="email" class="mr-3" />
+                                        <span>Email support</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="checkbox" name="communication[]" value="phone" class="mr-3" />
+                                        <span>Phone support</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="checkbox" name="communication[]" value="social_media" class="mr-3" />
+                                        <span>Social media</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="checkbox" name="communication[]" value="none" class="mr-3" />
+                                        <span>No contact attempts yet</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-text-primary mb-2">Platform's response</label>
+                                <select name="platform_response" class="input-field">
+                                    <option value>Select response type...</option>
+                                    <option value="no_response">No response received</option>
+                                    <option value="generic_response">Generic/automated responses only</option>
+                                    <option value="investigating">Said they're investigating</option>
+                                    <option value="requested_documents">Requested additional documents</option>
+                                    <option value="denied_claim">Denied your claim</option>
+                                    <option value="partial_resolution">Offered partial resolution</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-text-primary mb-2">Brief description of the situation</label>
+                                <textarea name="situation_description" rows="4" placeholder="Describe what happened and any relevant details..." class="input-field resize-none"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 5: Contact Information -->
+                    <div id="step-5" class="assessment-step hidden">
+                        <h2 class="text-2xl font-bold text-primary mb-6">Get your assessment results</h2>
+                        
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-semibold text-text-primary mb-2">First Name *</label>
+                                <input type="text" name="first_name" required class="input-field" />
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-text-primary mb-2">Last Name *</label>
+                                <input type="text" name="last_name" required class="input-field" />
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-text-primary mb-2">Email Address *</label>
+                                <input type="email" name="email" required class="input-field" />
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-text-primary mb-2">Phone Number</label>
+                                <input type="tel" name="phone" class="input-field" />
+                            </div>
+                        </div>
+                        
+                        <div class="mt-6">
+                            <label class="flex items-start">
+                                <input type="checkbox" name="consent" required class="mt-1 mr-3" />
+                                <span class="text-sm text-text-secondary">
+                                    I consent to being contacted about my case assessment and understand that this does not create an attorney-client relationship. I agree to the 
+                                    <a href="javascript:void(0)" class="text-accent hover:underline">Privacy Policy</a> and 
+                                    <a href="javascript:void(0)" class="text-accent hover:underline">Terms of Service</a>.
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Buttons -->
+                    <div class="flex justify-between pt-8 border-t border-surface">
+                        <button type="button" id="prev-btn" class="bg-surface text-text-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary-100 transition-colors hidden">
+                            Previous
+                        </button>
+                        
+                        <div class="flex space-x-4 ml-auto">
+                            <button type="button" id="save-btn" class="bg-secondary text-primary px-6 py-3 rounded-lg font-semibold hover:bg-secondary-600 transition-colors">
+                                Save & Continue Later
+                            </button>
+                            <button type="button" id="next-btn" class="btn-accent">
+                                Next Step
+                            </button>
+                            <button type="submit" id="submit-btn" class="btn-primary hidden">
+                                Get My Assessment
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Assessment Results Modal -->
+    <div id="results-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden">
+        <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="bg-white rounded-2xl max-w-2xl w-full max-h-screen overflow-y-auto">
+                <div class="p-8">
+                    <div class="text-center mb-8">
+                        <div class="w-16 h-16 bg-success-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-success-600" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-primary mb-2">Assessment Complete</h3>
+                        <p class="text-text-secondary">Here's your preliminary case evaluation</p>
+                    </div>
+                    
+                    <!-- Case Strength Indicator -->
+                    <div class="bg-success-50 border border-success-200 rounded-lg p-6 mb-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="font-bold text-success-700">Case Strength</h4>
+                            <span class="text-2xl font-bold text-success-600">Strong</span>
+                        </div>
+                        <div class="w-full bg-success-200 rounded-full h-3">
+                            <div class="bg-success-600 h-3 rounded-full" style="width: 85%"></div>
+                        </div>
+                        <p class="text-sm text-success-700 mt-2">85% likelihood of successful recovery based on similar cases</p>
+                    </div>
+                    
+                    <!-- Recovery Estimate -->
+                    <div class="grid md:grid-cols-2 gap-4 mb-6">
+                        <div class="bg-accent-50 border border-accent-200 rounded-lg p-4 text-center">
+                            <div class="text-2xl font-bold text-accent-700 mb-1">$35,000 - $42,000</div>
+                            <div class="text-sm text-accent-600">Estimated Recovery Range</div>
+                        </div>
+                        <div class="bg-warning-50 border border-warning-200 rounded-lg p-4 text-center">
+                            <div class="text-2xl font-bold text-warning-700 mb-1">14-21 Days</div>
+                            <div class="text-sm text-warning-600">Average Resolution Time</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Recommended Actions -->
+                    <div class="mb-6">
+                        <h4 class="font-bold text-primary mb-3">Recommended Next Steps</h4>
+                        <ul class="space-y-2 text-sm text-text-secondary">
+                            <li class="flex items-start">
+                                <svg class="w-4 h-4 text-accent mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                                </svg>
+                                Schedule immediate consultation to discuss legal strategy
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-4 h-4 text-accent mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                                </svg>
+                                Gather all communication records with the platform
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-4 h-4 text-accent mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                                </svg>
+                                Avoid further communication with platform until consultation
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Action Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="btn-primary flex-1">Schedule Consultation</button>
+                        <button class="bg-error text-white px-6 py-3 rounded-lg font-semibold hover:bg-error-600 transition-colors">Emergency Consultation</button>
+                    </div>
+                    
+                    <button id="close-modal" class="absolute top-4 right-4 text-text-secondary hover:text-text-primary">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trust Signals Section -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-primary mb-4">Why Our Assessments Are Accurate</h2>
+                <p class="text-xl text-text-secondary">Based on real case data and legal expertise</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Platform-Specific Data -->
+                <div class="text-center">
+                    <div class="bg-accent-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-accent" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Platform-Specific Success Rates</h3>
+                    <div class="text-sm text-text-secondary space-y-1">
+                        <div>Stake.com: 94% success rate</div>
+                        <div>Roobet: 89% success rate</div>
+                        <div>Bovada: 91% success rate</div>
+                    </div>
+                </div>
+                
+                <!-- Case Database -->
+                <div class="text-center">
+                    <div class="bg-secondary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-secondary-700" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Comprehensive Case Database</h3>
+                    <p class="text-text-secondary">847+ resolved cases analyzed for pattern recognition and outcome prediction</p>
+                </div>
+                
+                <!-- Legal Expertise -->
+                <div class="text-center">
+                    <div class="bg-success-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-success-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Licensed Gaming Law Attorneys</h3>
+                    <p class="text-text-secondary">Specialized expertise in cryptocurrency and online gaming regulations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Consultation CTA -->
+    <section class="py-16 bg-error text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex items-center justify-center mb-4">
+                <svg class="w-8 h-8 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+                </svg>
+                <h2 class="text-3xl font-bold">Urgent Situation?</h2>
+            </div>
+            
+            <p class="text-xl text-error-100 mb-8">
+                If your case involves large amounts or time-sensitive platform actions, don't wait for the assessment. Get immediate legal guidance.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="bg-white text-error px-8 py-3 rounded-lg font-semibold hover:bg-error-50 transition-colors">
+                    Emergency Consultation Now
+                </button>
+                <a href="homepage_gaming_law_advocacy_hub.html" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-error transition-colors">
+                    Call (555) 123-GAME
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center mb-4">
+                        <svg class="h-8 w-8 text-secondary mr-2" viewBox="0 0 40 40" fill="currentColor">
+                            <path d="M20 2L24 14H36L26 22L30 34L20 26L10 34L14 22L4 14H16L20 2Z"/>
+                            <circle cx="20" cy="20" r="3" fill="white"/>
+                        </svg>
+                        <span class="text-lg font-bold">Player Rights Legal</span>
+                    </div>
+                    <p class="text-primary-200 text-sm">
+                        Fighting for player rights in the digital gaming space. Your winnings, your rights, our fight.
+                    </p>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-sm text-primary-200">
+                        <li><a href="legal_services_hub_gaming_dispute_solutions.html" class="hover:text-white transition-colors">Fund Recovery</a></li>
+                        <li><a href="legal_services_hub_gaming_dispute_solutions.html" class="hover:text-white transition-colors">Account Restoration</a></li>
+                        <li><a href="legal_services_hub_gaming_dispute_solutions.html" class="hover:text-white transition-colors">KYC Resolution</a></li>
+                        <li><a href="legal_services_hub_gaming_dispute_solutions.html" class="hover:text-white transition-colors">Dispute Mediation</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Resources -->
+                <div>
+                    <h4 class="font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-sm text-primary-200">
+                        <li><a href="knowledge_center_player_rights_education.html" class="hover:text-white transition-colors">Legal Guides</a></li>
+                        <li><a href="success_stories_victory_showcase.html" class="hover:text-white transition-colors">Success Stories</a></li>
+                        <li><a href="case_assessment_free_legal_evaluation.html" class="hover:text-white transition-colors">Case Assessment</a></li>
+                        <li><a href="client_portal_secure_case_management.html" class="hover:text-white transition-colors">Client Portal</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact -->
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-sm text-primary-200">
+                        <li>Emergency: (555) 123-GAME</li>
+                        <li>General: info@playerrightslegal.com</li>
+                        <li>Available 24/7 for urgent cases</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-primary-700 mt-8 pt-8 text-center text-sm text-primary-200">
+                <p>&copy; 2025 Player Rights Legal. All Rights Reserved. Licensed to practice law in multiple jurisdictions.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Assessment Tool -->
+    <script>
+        let currentStep = 1;
+        const totalSteps = 5;
+        
+        const progressBar = document.getElementById('progress-bar');
+        const progressText = document.getElementById('progress-text');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const submitBtn = document.getElementById('submit-btn');
+        const saveBtn = document.getElementById('save-btn');
+        const resultsModal = document.getElementById('results-modal');
+        const closeModal = document.getElementById('close-modal');
+        
+        const stepTitles = [
+            'Platform Selection',
+            'Dispute Type',
+            'Financial Details',
+            'Communication History',
+            'Contact Information'
+        ];
+        
+        function updateProgress() {
+            const progress = (currentStep / totalSteps) * 100;
+            progressBar.style.width = progress + '%';
+            progressText.textContent = stepTitles[currentStep - 1];
+        }
+        
+        function showStep(step) {
+            // Hide all steps
+            document.querySelectorAll('.assessment-step').forEach(el => {
+                el.classList.add('hidden');
+            });
+            
+            // Show current step
+            document.getElementById(`step-${step}`).classList.remove('hidden');
+            
+            // Update navigation buttons
+            prevBtn.classList.toggle('hidden', step === 1);
+            nextBtn.classList.toggle('hidden', step === totalSteps);
+            submitBtn.classList.toggle('hidden', step !== totalSteps);
+            
+            updateProgress();
+        }
+        
+        function validateStep(step) {
+            const currentStepEl = document.getElementById(`step-${step}`);
+            const requiredInputs = currentStepEl.querySelectorAll('input[required], select[required]');
+            const radioGroups = currentStepEl.querySelectorAll('input[type="radio"]');
+            
+            // Check required fields
+            for (let input of requiredInputs) {
+                if (!input.value.trim()) {
+                    input.focus();
+                    return false;
+                }
+            }
+            
+            // Check radio button groups
+            const radioGroupNames = [...new Set([...radioGroups].map(r => r.name))];
+            for (let groupName of radioGroupNames) {
+                const groupInputs = currentStepEl.querySelectorAll(`input[name="${groupName}"]`);
+                const isChecked = [...groupInputs].some(input => input.checked);
+                if (!isChecked && groupInputs.length > 0) {
+                    groupInputs[0].focus();
+                    return false;
+                }
+            }
+            
+            return true;
+        }
+        
+        // Navigation event listeners
+        nextBtn.addEventListener('click', () => {
+            if (validateStep(currentStep)) {
+                currentStep++;
+                showStep(currentStep);
+            }
+        });
+        
+        prevBtn.addEventListener('click', () => {
+            currentStep--;
+            showStep(currentStep);
+        });
+        
+        // Handle "Other Platform" selection
+        document.querySelectorAll('input[name="platform"]').forEach(radio => {
+            radio.addEventListener('change', (e) => {
+                const otherInput = document.getElementById('other-platform-input');
+                if (e.target.value === 'other') {
+                    otherInput.classList.remove('hidden');
+                } else {
+                    otherInput.classList.add('hidden');
+                }
+            });
+        });
+        
+        // Form submission
+        document.getElementById('assessment-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            if (validateStep(currentStep)) {
+                // Show results modal
+                resultsModal.classList.remove('hidden');
+            }
+        });
+        
+        // Close modal
+        closeModal.addEventListener('click', () => {
+            resultsModal.classList.add('hidden');
+        });
+        
+        // Save and continue later
+        saveBtn.addEventListener('click', () => {
+            alert('Your progress has been saved. You can return to complete your assessment anytime.');
+        });
+        
+        // Initialize
+        showStep(1);
+    </script>
+</body>
+</html>

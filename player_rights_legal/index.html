@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player Rights Legal - Gaming Law Advocacy Hub</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <meta name="description" content="Player Rights Legal - Your trusted gaming law advocacy hub protecting player rights and resolving gaming disputes" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+        
+        .redirect-container {
+            text-align: center;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+            width: 90%;
+        }
+        
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #00d4ff, #0099cc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .loading-text {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid #00d4ff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 2px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00d4ff, #0099cc);
+            width: 0%;
+            animation: progress 3s ease-in-out forwards;
+        }
+        
+        @keyframes progress {
+            0% { width: 0%; }
+            100% { width: 100%; }
+        }
+        
+        .redirect-info {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            margin-top: 15px;
+        }
+    </style>
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fplayerrig2412back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.6"></script>
+</head>
+<body>
+    <div class="redirect-container">
+        <div class="logo">Player Rights Legal</div>
+        <div class="loading-text">Initializing Gaming Law Advocacy Hub...</div>
+        <div class="spinner"></div>
+        <div class="progress-bar">
+            <div class="progress-fill"></div>
+        </div>
+        <div class="redirect-info">Redirecting to homepage in a few seconds...</div>
+    </div>
+
+    <script>
+        // Redirect to the homepage after 3 seconds
+        setTimeout(function() {
+            window.location.href = 'pages/homepage_gaming_law_advocacy_hub.html';
+        }, 3000);
+        
+        // Optional: Add some dynamic text changes
+        const loadingTexts = [
+            'Initializing Gaming Law Advocacy Hub...',
+            'Loading Player Rights Resources...',
+            'Preparing Legal Services...',
+            'Almost Ready...'
+        ];
+        
+        let textIndex = 0;
+        const loadingTextElement = document.querySelector('.loading-text');
+        
+        const textInterval = setInterval(function() {
+            textIndex = (textIndex + 1) % loadingTexts.length;
+            loadingTextElement.textContent = loadingTexts[textIndex];
+        }, 750);
+        
+        // Clear interval when redirecting
+        setTimeout(function() {
+            clearInterval(textInterval);
+        }, 3000);
+    </script>
+</body>
+</html>
