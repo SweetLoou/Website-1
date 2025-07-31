@@ -1,0 +1,13 @@
+/* Fixes for color contrast issues */
+
+.text-primary-100 {
+    color: #A8BBD2; /* Increased contrast from D9E2EC */
+}
+
+.bg-success-100 {
+    background-color: #A7F3D0; /* Increased contrast from D1FAE5 */
+}
+
+.text-text-secondary {
+    color: #5A6472; /* Increased contrast from 6B7280 */
+}
